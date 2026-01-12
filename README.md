@@ -1,62 +1,65 @@
-# Trivia Preguntas
+# Conversor de Unidades
 
-Trivia Preguntas es una aplicacion web de trivia interactiva desarrollada con HTML, CSS y JavaScript. Permite a los usuarios responder preguntas tipo quiz con opciones multiples y recibir retroalimentacion inmediata. Es un proyecto enfocado en la practica de desarrollo front-end y manipulacion del DOM.
+Este proyecto es una aplicacion web sencilla que permite convertir valores entre distintas unidades de medida de una misma magnitud. Fue desarrollado como ejercicio practico para demostrar conocimientos basicos de desarrollo web, logica en JavaScript y correcta documentacion de proyectos.
 
 ---
+
 
 ## Descripcion
 
-Este proyecto consiste en un juego de trivia que presenta una serie de preguntas con varias opciones de respuesta. El usuario selecciona una respuesta y recibe retroalimentacion inmediata indicando si fue correcta o incorrecta.
+El conversor de unidades permite al usuario ingresar un valor numerico, seleccionar una unidad de origen y una unidad de destino, y obtener automaticamente el resultado de la conversion.
 
-El objetivo principal del proyecto es demostrar habilidades de desarrollo web utilizando tecnologias nativas del navegador, sin el uso de frameworks o librerias externas.
+La aplicacion funciona completamente del lado del cliente y no requiere conexion a servidores externos ni uso de APIs.
 
 ---
+
 
 ## Funcionalidades
 
-- Visualizacion de preguntas con opciones multiples.
-- Validacion de respuestas seleccionadas por el usuario.
-- Interaccion dinamica sin recarga de pagina.
-- Interfaz simple y clara para una buena experiencia de usuario.
+- Ingreso de un valor numerico a convertir.
+- Seleccion de unidad de origen.
+- Seleccion de unidad de destino.
+- Calculo automatico del resultado.
+- Actualizacion dinamica del resultado sin recargar la pagina.
 
 ---
 
-## Estructura del Proyecto
 
-```plaintext
-trivia-preguntas
-├── index.html        # Estructura principal de la aplicacion
-├── styles.css        # Estilos y diseño visual
-└── script.js         # Logica del juego y manejo del DOM
+## Estructura del proyecto
+
+```
+conversor-unidades
+├── index.html    # Archivo unico que contiene la estructura, estilos y logica del proyecto
 ```
 
 ---
 
-## Tecnologias Utilizadas
 
-| Tecnologia | Descripcion |
-|-----------|-------------|
-| HTML5     | Estructura semantica del contenido |
-| CSS3      | Estilos y presentacion visual |
-| JavaScript| Logica de negocio e interactividad |
+## Tecnologias utilizadas
+
+- HTML para la estructura de la interfaz de usuario.
+- CSS para el diseño y presentacion visual.
+- JavaScript para la logica de conversion y manejo de eventos.
 
 ---
+
 
 ## Como ejecutar el proyecto
 
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/dulcemariaom1987/trivia-preguntas.git
+   ```
+   git clone https://github.com/dulcemariaom1987/conversor-unidades.git
    ```
 
 2. Acceder a la carpeta del proyecto:
-   ```bash
-   cd trivia-preguntas
+   ```
+   cd conversor-unidades
    ```
 
-3. Abrir el archivo index.html en el navegador web preferido.
+3. Abrir el archivo index.html en cualquier navegador web moderno.
 
-No es necesario instalar dependencias ni configurar un servidor local.
+No se requiere instalacion de dependencias ni configuracion adicional.
+
 
 ---
 
@@ -68,6 +71,7 @@ El contenido visual es propiedad de la autora.
 
 
 ---
+
 
 ## Autor
 
